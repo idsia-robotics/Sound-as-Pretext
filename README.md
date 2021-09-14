@@ -14,7 +14,7 @@ We show that learning to predict sound features as an auxiliary pretext task yie
 Extensive experiments show that the approach significantly outperforms a supervised baseline, reducing the Mean Absolute Error from 14 to 7 cm, whereas a model that has access to labels for the entire training set yields an error of 5 cm.
 
 <!---
-### Bibtex
+### Bibtex will be displayed here later
 
 ```properties
 @article{nava2021uncertainty,
@@ -32,4 +32,4 @@ Extensive experiments show that the approach significantly outperforms a supervi
 
 ### Video
 *Soon to be available.*
-<!--[![Learning Visual Object Localization from Few Labeled Examples using Sound Prediction as a Pretext Task](https://github.com/idsia-robotics/Sound-as-Pretext/blob/main/video/video.gif)](https://youtu.be/G3cIDRrkfZY)-->
+<!--[![Learning Visual Object Localization from Few Labeled Examples using Sound Prediction as a Pretext Task](https://github.com/idsia-robotics/Sound-as-Pretext/blob/main/code/data/out/video.gif)](https://youtu.be/XXXXXXX)-->
