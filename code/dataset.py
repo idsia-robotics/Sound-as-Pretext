@@ -53,8 +53,6 @@ class PretextDataset():
                 self.split + ' is not a valid split, use one of t1, t2, val, or test')
 
         prefix = '21_rosbag2_2021_07_09-11_14_04' if split == 'test' else 'virtual'
-        if split == 'test' and 'viz' in filename:
-            prefix = '03_rosbag2_2021_07_09-11_14_04'
         self.h5f = h5py.File(filename + '_' + split + '.h5', 'r')
         self.start = 0
         self.end = self.h5f[prefix + '/rm_s1_camera_image_h264'].shape[0]
