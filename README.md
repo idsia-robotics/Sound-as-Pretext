@@ -5,13 +5,14 @@
 Dalle Molle Institute for Artificial Intelligence, USI-SUPSI, Lugano (Switzerland)
 
 ### Abstract
-We introduce an approach to train neural network models for visual object localization, leveraging a dataset largely composed of unlabeled examples.
-We assume that the object to be localized emits sound, which is picked up by a microphone rigidly affixed to the body of the robot.
-This information is used as the target of a cross-modal pretext task: predicting sound features from a camera frame.
-By solving the pretext task, a model draws supervision from both visual and auditorial information, enhancing its performance.
-This approach is well suited to many practical applications in self-supervised robot learning: we instantiate it to localize a small quadrotor from low-resolution images acquired by a ground robot.
-We show that learning to predict sound features as an auxiliary pretext task yields large performance improvements on the visual localization task.
-Extensive experiments show that the approach significantly outperforms a supervised baseline, reducing the Mean Absolute Error from 14 to 7 cm, whereas a model that has access to labels for the entire training set yields an error of 5 cm.
+We introduce an approach to train neural network models for visual object localization using a small training set, labeled with ground truth object positions, and a large unlabeled one.
+We assume that the object to be localized emits sound, which is perceived by a microphone rigidly affixed to the camera.
+This information is used as the target of a cross-modal pretext task: predicting sound features from camera frames.
+By solving the pretext task, the model draws self-supervision from visual and auditory data. 
+The approach is well suited to robot learning: we instantiate it to localize a small quadrotor from 128x80 pixel images acquired by a ground robot. 
+Experiments on a separate testing set show that introducing the auxiliary pretext task yields large performance improvements:
+the Mean Absolute Error (MAE) of the estimated image coordinates of the target is reduced from 7 to 4 pixels; the MAE of the estimated distance is reduced from 28 cm to 14 cm.
+A model that has access to labels for the entire training set yields a MAE of 2 pixels and 11 cm, respectively.
 
 
 ![Sound as Pretext](https://github.com/idsia-robotics/Sound-as-Pretext/blob/main/code/data/out/Intro.png)
