@@ -1,4 +1,4 @@
-# Learning Visual Object Localization from Few Labeled Examples using Sound Prediction as a Pretext Task
+# Learning Visual Localization of a Quadrotor using its Noise as Self-Supervision
 
 *Mirko Nava, Antonio Paolillo, Jerome Guzzi, Luca Maria Gambardella, and Alessandro Giusti*
 
