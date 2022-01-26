@@ -36,9 +36,9 @@ The PDF of the article is available in Open Access [here]( https://doi.org/10.11
   journal={IEEE Robotics and Automation Letters}, 
   title={Learning Visual Localization of a Quadrotor Using its Noise as Self-Supervision}, 
   year={2022},
-  volume={},
-  number={},
-  pages={1-1},
+  volume={7},
+  number={2},
+  pages={2218-2225},
   doi={10.1109/LRA.2022.3143565}
 }
 ```
