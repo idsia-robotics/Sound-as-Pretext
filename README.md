@@ -45,12 +45,11 @@ The PDF of the article is available in Open Access [here]( https://doi.org/10.11
 
 ### Video
 
-A video of the approach can be downloaded by clicking [here](https://github.com/idsia-robotics/Sound-as-Pretext/raw/main/code/data/out/sap.mp4).
-<!--[![Learning Visual Object Localization from Few Labeled Examples using Sound Prediction as a Pretext Task](https://github.com/idsia-robotics/Sound-as-Pretext/blob/main/code/data/out/video.gif)](https://youtu.be/XXXXXXX)-->
+[![Learning Visual Object Localization from Few Labeled Examples using Sound Prediction as a Pretext Task](https://github.com/idsia-robotics/Sound-as-Pretext/blob/main/code/data/out/video.gif)](https://www.youtube.com/watch?v=fuexj03mGNo)
 
 ### Code
 
-The entire codebase, training scripts and pre-trained models are avaliable [here](https://www.youtube.com/watch?v=fuexj03mGNo).
+The entire codebase, training scripts and pre-trained models are avaliable [here](https://github.com/idsia-robotics/Sound-as-Pretext/tree/main/code).
 
 ### Dataset
 
