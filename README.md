@@ -50,8 +50,7 @@ A video of the approach can be downloaded by clicking [here](https://github.com/
 
 ### Code
 
-The entire codebase, training scripts and pre-trained models are avaliable [here](https://github.com/idsia-robotics/Sound-as-Pretext/tree/main/code).
-<!--- https://www.youtube.com/watch?v=fuexj03mGNo -->
+The entire codebase, training scripts and pre-trained models are avaliable [here](https://www.youtube.com/watch?v=fuexj03mGNo).
 
 ### Dataset
 
