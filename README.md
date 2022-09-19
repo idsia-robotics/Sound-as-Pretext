@@ -28,7 +28,7 @@ Between seconds 17 and 20 the drone exits of the camera FOV, causing all models 
 
 The PDF of the article is available in Open Access [here]( https://doi.org/10.1109/LRA.2022.3143565).
 
-### Bibtex will be displayed here later
+### Bibtex
 
 ```properties
 @article{nava2022learning,
